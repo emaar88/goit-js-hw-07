@@ -1,11 +1,32 @@
 #validation-input {
-    border: 3px solid #bdbdbd;
-  }
-  
-  #validation-input.valid {
-    border-color: #4caf50;
-  }
-  
-  #validation-input.invalid {
-    border-color: #f44336;
-  }
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+.norm-image {
+  width: 200px;
+  height: 100px;
+}
+.norm-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50%;
+  justify-content: space-between;
+}
+
+#ingredients,
+#gallery,
+#counter,
+#size-control,
+#names-create,
+#valid-input {
+  padding: 20px 0;
+}
