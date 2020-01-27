@@ -14,7 +14,6 @@ const ingredients = [
 function createLi(text) {
   const li = document.createElement("li");
   li.textContent = text;
-  //   img.classList.add("norm-image");
   //list.append(li);
   return li;
 }
